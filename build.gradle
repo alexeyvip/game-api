@@ -1,0 +1,21 @@
+repositories {
+    jcenter()
+}
+
+version="0.0.1-SHAPSHOT"
+
+apply plugin: 'war'
+
+dependencies {
+    providedCompile 'javax:javaee-api:6.0'
+
+    compile 'org.springframework:spring-web:4.2.5.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.2.5.RELEASE'
+
+    compile 'com.fasterxml.jackson.core:jackson-core:2.7.3@jar'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.7.3@jar'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.3@jar'
+
+    compile 'org.springframework:spring-websocket:4.2.5.RELEASE'
+
+}
